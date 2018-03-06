@@ -46,7 +46,7 @@ Tag notation
          <f:case value="1">Hello Mr.  {person.lastName}</f:case>
          <f:case value="2">Hello Mrs. {person.lastName}</f:case>
          <f:case value="3">Hello Miss {person.lastName}</f:case>
-         <f:defaultCase>A person with no specified gender</f:defaultCase>
+         <f:case default="TRUE">A person with no specified gender</f:case>
       </f:switch>
 
    The result will be::
